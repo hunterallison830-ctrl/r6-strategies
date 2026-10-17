@@ -85,34 +85,82 @@ function screenSites(map,side){
   });
   app.appendChild(list);
 }
-function embed(box,v){
-  var q="?autoplay=1&rel=0&modestbranding=1&playsinline=1&start="+v.start+(v.end?"&end="+v.end:"");
+var filt="all",active=null;
+var CPTAGS=["Crazy Peak","Flashy","Advanced","Crazy play"];
+function isCP(s){return s.tags.some(function(t){return CPTAGS.indexOf(t)>-1})}
+function slug(t){return t.toLowerCase().replace(/[^a-z]+/g,"-")}
+function restore(box){
+  if(!box||!box._thumb)return;
+  box.textContent="";box.appendChild(box._thumb);box._playing=false;
+}
+function embed(box,v,title){
+  if(active&&active!==box)restore(active);
+  active=box;box._playing=true;
+  var q="?autoplay=1&rel=0&modestbranding=1&playsinline=1&iv_load_policy=3&fs=1&enablejsapi=1&start="+v.start+(v.end?"&end="+v.end:"")+"&origin="+encodeURIComponent(location.origin);
   var f=document.createElement("iframe");
   f.src="https://www.youtube-nocookie.com/embed/"+v.id+q;
-  f.title=v.videoTitle;f.allow="accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;f.referrerPolicy="strict-origin-when-cross-origin";
-  box.textContent="";box.appendChild(f);
+  f.title=v.videoTitle||title;f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;
+  f.referrerPolicy="strict-origin-when-cross-origin";
+  /* sandbox without allow-popups: nothing inside the player can open a new tab or window */
+  f.setAttribute("sandbox","allow-scripts allow-same-origin allow-presentation");
+  f.setAttribute("data-vid",v.id);
+  f.addEventListener("load",function(){try{f.contentWindow.postMessage(JSON.stringify({event:"listening",id:v.id}),"https://www.youtube-nocookie.com")}catch(e){}});
+  box.textContent="";box.appendChild(f);box._frame=f;
+}
+window.addEventListener("message",function(ev){
+  if(ev.origin!=="https://www.youtube-nocookie.com")return;
+  var m;try{m=typeof ev.data==="string"?JSON.parse(ev.data):ev.data}catch(e){return}
+  if(!m)return;
+  window.__ytEvents=window.__ytEvents||[];window.__ytEvents.push(m.event+":"+JSON.stringify(m.info&&m.info.playerState!==undefined?m.info.playerState:(m.info&&m.info.error)||""));
+  if(m.event==="onError"&&active){
+    var b=active;b.textContent="";
+    var n=el("div","noembed","No in-app video for this one yet.");b.appendChild(n);
+  }
+});
+function stratCard(s){
+  var c=el("article","strat"+(isCP(s)?" cp":""));
+  var v=s.video,box=el("div","vid");
+  var h=el("h3",null);var tb=el("button","ttl",s.title);tb.type="button";h.appendChild(tb);c.appendChild(h);
+  var tags=el("div","tags");s.tags.forEach(function(t){tags.appendChild(el("span","tag t-"+slug(t),t))});c.appendChild(tags);
+  c.appendChild(el("p",null,s.summary));
+  var thumb=document.createDocumentFragment();
+  var img=document.createElement("img");img.loading="lazy";img.alt="";img.src="https://i.ytimg.com/vi/"+v.id+"/hqdefault.jpg";
+  var pb=el("button","play");pb.type="button";pb.setAttribute("aria-label","Play video in the app: "+s.title);pb.appendChild(el("span",null,"▶"));
+  var tw=el("div","tw");tw.appendChild(img);tw.appendChild(pb);
+  box._thumb=tw;box.appendChild(tw);
+  function play(){if(!box._playing)embed(box,v,s.title)}
+  pb.addEventListener("click",play);tb.addEventListener("click",play);
+  c.appendChild(box);
+  var yr=+v.uploaded.slice(0,4);
+  var meta=v.creator+" · "+ym(v.uploaded)+" · "+mmss(v.seconds)+(v.seconds>420?" (long)":"")+(yr&&yr<=2023?" · older video, map may have changed":"");
+  c.appendChild(el("p","meta",meta));
+  return c;
 }
 function screenStrats(map,side,st){
   document.title=st.name+" · R6 Strategies";
+  active=null;
   crumb([{label:"Maps",path:[]},{label:map.name,path:[map.id]},{label:sideName(side),path:[map.id,side]},{label:st.name}]);
   app.appendChild(el("h1",null,(st.floor?st.floor+" ":"")+st.name));
   app.appendChild(el("p","dim",map.name+" · "+sideName(side)));
-  var list=map.strategies.filter(function(s){return s.side===side&&s.site===st.id});
-  if(!list.length)app.appendChild(el("div","empty","Strategies for this site are coming soon."));
-  list.forEach(function(s){
-    var c=el("article","strat");
-    c.appendChild(el("h3",null,s.title));
-    var tags=el("div","tags");s.tags.forEach(function(t){tags.appendChild(el("span","tag "+t.split(" ")[0],t))});c.appendChild(tags);
-    c.appendChild(el("p",null,s.summary));
-    var v=s.video,box=el("div","vid");
-    var img=document.createElement("img");img.loading="lazy";img.alt="";img.src="https://i.ytimg.com/vi/"+v.id+"/hqdefault.jpg";box.appendChild(img);
-    var pb=el("button","play");pb.type="button";pb.setAttribute("aria-label","Play video: "+s.title);pb.appendChild(el("span",null,"▶"));
-    pb.addEventListener("click",function(){embed(box,v)});box.appendChild(pb);c.appendChild(box);
-    c.appendChild(el("p","meta",v.creator+" · "+ym(v.uploaded)+" · "+(v.note.indexOf("Full")===0?"full video, ":"clip ")+mmss(v.seconds)+(v.note.indexOf("Long")===0?" (long)":"")));
-    var a=el("a","yt","Open on YouTube ↗");a.href="https://www.youtube.com/watch?v="+v.id+(v.start?"&t="+v.start+"s":"");a.target="_blank";a.rel="noopener noreferrer";c.appendChild(a);
-    list.length&&app.appendChild(c);
+  var all=map.strategies.filter(function(s){return s.side===side&&s.site===st.id});
+  if(!all.length){app.appendChild(el("div","empty","No strategies for this site yet. More coming."));return}
+  var nd=all.filter(function(s){return s.tags.indexOf("Default")>-1}).length,nc=all.filter(isCP).length;
+  var chips=el("div","chips");chips.setAttribute("role","group");chips.setAttribute("aria-label","Filter strategies");
+  var defs=[["all","All",all.length],["default","Default",nd],["cp","Crazy Peak",nc]];
+  var listBox=el("div");
+  function draw(){
+    listBox.textContent="";active=null;
+    var l=all.filter(function(s){return filt==="all"||(filt==="default"&&s.tags.indexOf("Default")>-1)||(filt==="cp"&&isCP(s))});
+    if(!l.length)listBox.appendChild(el("div","empty",filt==="cp"?"No Crazy Peak plays for this site yet.":"No Default plays for this site yet."));
+    l.forEach(function(s){listBox.appendChild(stratCard(s))});
+    if(l.length&&l.length<4&&filt==="all")listBox.appendChild(el("div","empty","More strategies coming for this site."));
+    [].forEach.call(chips.children,function(b){b.setAttribute("aria-pressed",String(b.dataset.f===filt))});
+  }
+  defs.forEach(function(d){
+    var b=el("button","chip",d[1]+" ("+d[2]+")");b.type="button";b.dataset.f=d[0];
+    b.addEventListener("click",function(){filt=d[0];draw()});chips.appendChild(b);
   });
-  if(list.length&&list.length<4)app.appendChild(el("div","empty","More strategies coming for this site."));
+  app.appendChild(chips);app.appendChild(listBox);draw();
 }
 function render(){
   if(!DATA)return;

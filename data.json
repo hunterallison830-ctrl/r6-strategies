@@ -3,7 +3,7 @@
   "season": "Y11S3 · Operation Split Fire (mid-season rotation)",
   "checked": "2026-10-17",
   "poolNote": "Ranked pool checked Oct 17, 2026 (Ubisoft mid-season update, Oct 15): 15 maps. Pro maps (also the Legend Division pool): Border, Bank, Chalet, Clubhouse, Villa, Fortress, Kafe, Lair, Nighthaven. Additional Ranked maps: Oregon, Coastline, Consulate, Kanal, Outback, Calypso Casino. Ubisoft says this is the last season using this rotation system, so the pool may change.",
-  "videoNote": "Videos are public YouTube guides by other creators. Most are a section of a longer guide, so they start at the right spot and stop at the end of that section."
+  "videoNote": "Everything plays inside the app (privacy-friendly YouTube embeds, no links out). Most are a section of a longer guide by another creator, so they start at the right spot and stop at the end of that section. Crazy Peak = flashy, high-skill or creative plays; use the filter on each site."
  },
  "maps": [
   {
@@ -107,7 +107,7 @@
      "summary": "Azami archives pixel peek (2F Armory Lockers / Archives). 0:39 section of NotJoeyBlack's \"18 Border Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "tT3JzIm9skI",
@@ -128,7 +128,7 @@
      "summary": "Goyo archive rush counter (2F Armory Lockers / Archives). 0:42 section of NotJoeyBlack's \"18 Border Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "tT3JzIm9skI",
@@ -372,6 +372,134 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "border-d-s3-2"
+    },
+    {
+     "id": "cp-border-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba one-way for Armory / Archives",
+     "summary": "Head holes in the Archives wall plus two Kiba Barricades make a one-way onto the balcony, aimed at quick Montagne plant rushes. Uses a shotgun.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 836,
+      "end": 946,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 110,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-border-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Armory / Archives",
+     "summary": "Two spikes on the Archives shelves block both default plant spots, plus a spike by the fountain for attackers popping out.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 335,
+      "end": 377,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 42,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-border-a-s2-1",
+     "side": "attack",
+     "site": "s2",
+     "title": "Thermite hatch into Bathroom from 2F offices",
+     "summary": "A very precise Thermite charge placement upstairs in the 2F offices opens the hatch down into Bathroom.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 240,
+      "end": 272,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 32,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-border-d-s0-3",
+     "side": "defense",
+     "site": "s0",
+     "title": "Kaid trick in the Armory",
+     "summary": "A Kaid Electroclaw trick for the Armory side of the 2F site.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "sKr3OWC1AWc",
+      "start": 152,
+      "end": 196,
+      "creator": "TysonBR",
+      "videoTitle": "NEW Hiding Spots & More on Border | Rainbow Six Siege 2021",
+      "uploaded": "2021-01",
+      "seconds": 44,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-border-d-s0-4",
+     "side": "defense",
+     "site": "s0",
+     "title": "Aruni trick on the Archives door",
+     "summary": "An Aruni gadget trick for the Archives door.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "sKr3OWC1AWc",
+      "start": 320,
+      "end": 385,
+      "creator": "TysonBR",
+      "videoTitle": "NEW Hiding Spots & More on Border | Rainbow Six Siege 2021",
+      "uploaded": "2021-01",
+      "seconds": 65,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-border-d-s2-1",
+     "side": "defense",
+     "site": "s2",
+     "title": "Hiding spot in Tellers",
+     "summary": "A hiding spot shown for the Tellers side.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "sKr3OWC1AWc",
+      "start": 84,
+      "end": 152,
+      "creator": "TysonBR",
+      "videoTitle": "NEW Hiding Spots & More on Border | Rainbow Six Siege 2021",
+      "uploaded": "2021-01",
+      "seconds": 68,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -623,7 +751,7 @@
      "tags": [
       "Default",
       "Hold",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "C_jCndq7ltk",
@@ -781,6 +909,90 @@
       "note": "Long section (10:03). Plays only this part of a longer guide."
      },
      "id": "bank-d-s3-3"
+    },
+    {
+     "id": "cp-bank-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for CEO Office / Lounge",
+     "summary": "Upright Kiba Barricades on the CEO and Lounge couches so you can stand and swing into top square without being seen through the main walls.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 280,
+      "end": 390,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 110,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-bank-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Denari + shotgun trap on the Blue Stairs",
+     "summary": "Two trip connectors hidden on the top steps of the blue stairs, combined with a shotgun, for attackers coming down from Electrical.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 398,
+      "end": 447,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 49,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-bank-d-s3-2",
+     "side": "defense",
+     "site": "s3",
+     "title": "Kaid Electroclaw spot for the Lockers hatch",
+     "summary": "Go behind the bars and throw the Electroclaw there to electrify the hatch when Lockers is the site.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "L5KMWU3hhCU",
+      "start": 0,
+      "end": 40,
+      "creator": "DONDONTIKI !",
+      "videoTitle": "A very Good Electroclaw Kaid Spot for defending lockers hatch Bank | Rainbow Six Siege Tips and",
+      "uploaded": "2021-08",
+      "seconds": 40,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-bank-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "SSG site swap: lock CEO with Castle + Mira",
+     "summary": "Pro-match breakdown: SSG switches to CEO, where Castle and Mira turn the site into a fortress to stop any execute through the CEO windows.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "V8_lgD6X2sc",
+      "start": 237,
+      "end": 396,
+      "creator": "Hybear",
+      "videoTitle": "SSGs Simple Strategy to NEVER LOSE on Bank",
+      "uploaded": "2024-09",
+      "seconds": 159,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -1191,6 +1403,176 @@
       "note": "Long section (7:53). Plays only this part of a longer guide."
      },
      "id": "chalet-d-s3-4"
+    },
+    {
+     "id": "cp-chalet-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for Master Bedroom / Office",
+     "summary": "Kiba setup starting on the Piano Room piano, covering the balcony single door, the window and the library double door.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 500,
+      "end": 676,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 176,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Master Bedroom / Office",
+     "summary": "Floor spikes on the mezzanines and behind the bookshelves, spaced apart and linked with barbed wire.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 48,
+      "end": 121,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 73,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s1-1",
+     "side": "defense",
+     "site": "s1",
+     "title": "Fenrir spot under the main lobby (Bar / Gaming)",
+     "summary": "Shoot a small hole in the ceiling by the pillar and put a Fenrir mine under the main entrance upstairs. Used by Canadian.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 842,
+      "end": 932,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 90,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s0-3",
+     "side": "defense",
+     "site": "s0",
+     "title": "Spawn peek from Master Bedroom window",
+     "summary": "Break a bit of the window and aim exactly at the trees; wait a second or two for the spawn kill.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 357,
+      "end": 398,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 41,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s0-4",
+     "side": "defense",
+     "site": "s0",
+     "title": "Evil Eye on the ceiling beam in the Office",
+     "summary": "Break the shelves on the counter, climb the coffee machines onto the metal unit and place the Evil Eye on the ceiling beam.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "xFM6x0RGJIM",
+      "start": 434,
+      "end": 537,
+      "creator": "The Dangleberries",
+      "videoTitle": "10 NEW Pro Tips and Tricks on Chalet Rework - Rainbow Six : Siege",
+      "uploaded": "2020-09",
+      "seconds": 103,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Wine Cellar angle down the long hallway",
+     "summary": "Break holes in the little unit for a cheeky angle onto the long hallway to the big garage.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "xFM6x0RGJIM",
+      "start": 293,
+      "end": 350,
+      "creator": "The Dangleberries",
+      "videoTitle": "10 NEW Pro Tips and Tricks on Chalet Rework - Rainbow Six : Siege",
+      "uploaded": "2020-09",
+      "seconds": 57,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s3-2",
+     "side": "defense",
+     "site": "s3",
+     "title": "C4 spot in the Snowmobile Garage",
+     "summary": "Break a small hole in the ceiling for a C4 spot shown by Coconut and McCoy.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "xFM6x0RGJIM",
+      "start": 190,
+      "end": 233,
+      "creator": "The Dangleberries",
+      "videoTitle": "10 NEW Pro Tips and Tricks on Chalet Rework - Rainbow Six : Siege",
+      "uploaded": "2020-09",
+      "seconds": 43,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-chalet-d-s1-2",
+     "side": "defense",
+     "site": "s1",
+     "title": "Bar stock angle",
+     "summary": "An angle from the bar stock area (the video's \"Bar stock angle\" chapter).",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "xFM6x0RGJIM",
+      "start": 95,
+      "end": 149,
+      "creator": "The Dangleberries",
+      "videoTitle": "10 NEW Pro Tips and Tricks on Chalet Rework - Rainbow Six : Siege",
+      "uploaded": "2020-09",
+      "seconds": 54,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -1727,6 +2109,92 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "clubhouse-d-s3-4"
+    },
+    {
+     "id": "cp-clubhouse-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Azami Kiba spots for Church / Arsenal",
+     "summary": "Kiba Barricades in Arsenal, including a pair that makes a one-way you can use when attackers drop the hatch.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 104,
+      "end": 188,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 84,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-clubhouse-d-s1-1",
+     "side": "defense",
+     "site": "s1",
+     "title": "Thorn traps for Cash Room / CCTV Room",
+     "summary": "A spike on the default plant spot, one behind the server rack and one behind a wooden beam to punish aggressive pushes.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 436,
+      "end": 480,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 44,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-clubhouse-d-s1-2",
+     "side": "defense",
+     "site": "s1",
+     "title": "SSG Cash Room setup with Castle",
+     "summary": "A pro-league Cash Room setup used by SSG that starts by Castle-ing the main entrance and a doorway.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 499,
+      "end": 538,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 39,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-clubhouse-d-s1-3",
+     "side": "defense",
+     "site": "s1",
+     "title": "Stop the CCTV window peek (pro league)",
+     "summary": "A pro-league answer to attackers peeking the CC window, as shown in recent matches.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 746,
+      "end": 793,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 47,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -2012,6 +2480,197 @@
       "note": "Long section (8:40). Plays only this part of a longer guide."
      },
      "id": "villa-d-s3-2"
+    },
+    {
+     "id": "cp-villa-d-s1-1",
+     "side": "defense",
+     "site": "s1",
+     "title": "Azami Kiba spots for Trophy / Statuary",
+     "summary": "First Kiba on the statue holds the single-door angle and watches the walk-in from Master Bedroom.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1252,
+      "end": 1336,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 84,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Aviator / Games",
+     "summary": "Spikes behind the map table and the room partition, one behind the safe door and one by the gas pipe in the corridor.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 203,
+      "end": 255,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 52,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-d-s1-2",
+     "side": "defense",
+     "site": "s1",
+     "title": "Kaid trick in Statuary",
+     "summary": "A Kaid Electroclaw trick for the Statuary room.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "uXUocEDOEHI",
+      "start": 118,
+      "end": 152,
+      "creator": "TysonBR",
+      "videoTitle": "TOP Tips, Tricks and Spots on Villa Rainbow Six Siege ( Spawnpeek Counter, Sneaky Angles and More )",
+      "uploaded": "2020-10",
+      "seconds": 34,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Kaid trick in Games Room",
+     "summary": "A Kaid Electroclaw trick for the Games Room.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "uXUocEDOEHI",
+      "start": 152,
+      "end": 186,
+      "creator": "TysonBR",
+      "videoTitle": "TOP Tips, Tricks and Spots on Villa Rainbow Six Siege ( Spawnpeek Counter, Sneaky Angles and More )",
+      "uploaded": "2020-10",
+      "seconds": 34,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-d-s0-3",
+     "side": "defense",
+     "site": "s0",
+     "title": "Kaid trick in Aviator",
+     "summary": "A Kaid Electroclaw trick for Aviator.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "uXUocEDOEHI",
+      "start": 186,
+      "end": 228,
+      "creator": "TysonBR",
+      "videoTitle": "TOP Tips, Tricks and Spots on Villa Rainbow Six Siege ( Spawnpeek Counter, Sneaky Angles and More )",
+      "uploaded": "2020-10",
+      "seconds": 42,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-d-s2-1",
+     "side": "defense",
+     "site": "s2",
+     "title": "Angle for pantry stairs and window drops (Kitchen / Dining)",
+     "summary": "Make a hole with a shotgun or impact grenade to get an angle on attackers coming up the pantry stairs or dropping from the window.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "IayNqoJVTAc",
+      "start": 0,
+      "end": 61,
+      "creator": "DONDONTIKI !",
+      "videoTitle": "A very good Angle for Defending Kitchen and Dining on Villa | Rainbow Six Siege Tips and Tricks",
+      "uploaded": "2021-07",
+      "seconds": 61,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-a-s0-1",
+     "side": "attack",
+     "site": "s0",
+     "title": "Pro League rush: Aviator",
+     "summary": "Rufus explains why Aviator is hard to rush and says only try it with three or more teammates off-site.",
+     "tags": [
+      "Advanced",
+      "Execute"
+     ],
+     "video": {
+      "id": "Us85TFw7duY",
+      "start": 0,
+      "end": 107,
+      "creator": "Rufus",
+      "videoTitle": "How to Rush EVERY Site on Villa || Best Pro League Rushes || Attack Guide",
+      "uploaded": "2021-02",
+      "seconds": 107,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-a-s1-1",
+     "side": "attack",
+     "site": "s1",
+     "title": "Pro League rush: Trophy",
+     "summary": "The skylight makes Trophy hard to enter; this covers the one rush type Rufus has seen used on it.",
+     "tags": [
+      "Advanced",
+      "Execute"
+     ],
+     "video": {
+      "id": "Us85TFw7duY",
+      "start": 107,
+      "end": 183,
+      "creator": "Rufus",
+      "videoTitle": "How to Rush EVERY Site on Villa || Best Pro League Rushes || Attack Guide",
+      "uploaded": "2021-02",
+      "seconds": 76,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-villa-a-s2-1",
+     "side": "attack",
+     "site": "s2",
+     "title": "Pro League rush: Kitchen / Dining",
+     "summary": "Rufus's pick for the best site to rush on Villa because it's easy to enter and roams are common.",
+     "tags": [
+      "Advanced",
+      "Execute"
+     ],
+     "video": {
+      "id": "Us85TFw7duY",
+      "start": 183,
+      "end": 296,
+      "creator": "Rufus",
+      "videoTitle": "How to Rush EVERY Site on Villa || Best Pro League Rushes || Attack Guide",
+      "uploaded": "2021-02",
+      "seconds": 113,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -2651,6 +3310,50 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "fortress-d-s3-4"
+    },
+    {
+     "id": "cp-fortress-d-s1-1",
+     "side": "defense",
+     "site": "s1",
+     "title": "Azami Kiba spots for Dormitory / Games Room",
+     "summary": "Make a rotate from Games Room into Old Tower and place a Kiba there to swing at attackers dropping from the tower.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1336,
+      "end": 1426,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 90,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-fortress-d-s1-2",
+     "side": "defense",
+     "site": "s1",
+     "title": "Thorn traps for Dormitory / Games Room",
+     "summary": "Throws a spike outside the Games window as soon as prep ends, then spikes at the Old Tower rope climb.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 121,
+      "end": 203,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 82,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -3082,6 +3785,71 @@
       "note": "Long section (10:05). Plays only this part of a longer guide."
      },
      "id": "kafe-d-s3-4"
+    },
+    {
+     "id": "cp-kafe-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba setup for Bar / Cocktail (built in Cigar Lounge)",
+     "summary": "Reinforce the hatch, then place Kiba Barricades in Cigar Lounge to swing the cigar shop, the balcony and the main wall.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 676,
+      "end": 836,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 160,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-kafe-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Thorn traps for Kitchen Service / Kitchen Cooking",
+     "summary": "Spikes at the bar side hole, under the bakery table and in the kitchen floor holes.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 509,
+      "end": 539,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 30,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-kafe-a-s0-1",
+     "side": "attack",
+     "site": "s0",
+     "title": "The Cocktail attack that changed pro league",
+     "summary": "Skip the bar: roam-clear below the site, then breach below Cocktail, with both roof hatches opened to stop flanks from red stairs.",
+     "tags": [
+      "Advanced",
+      "Execute"
+     ],
+     "video": {
+      "id": "PN_cUtj61ZI",
+      "start": 46,
+      "end": 207,
+      "creator": "Rufus",
+      "videoTitle": "This Attack is Changing Pro League | Cigar/Cocktail Site on Kafe Dostoyevsky",
+      "uploaded": "2020-10",
+      "seconds": 161,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -3355,7 +4123,7 @@
      "tags": [
       "Default",
       "Hold",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "PU6b1LZ3cSY",
@@ -3452,6 +4220,91 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "lair-d-s3-2"
+    },
+    {
+     "id": "cp-lair-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for Master Office / R6 Room",
+     "summary": "Three Kibas in Master Office covering the main-wall walk-ins and the hallway, plus one for the single door.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1632,
+      "end": 1732,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 100,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-lair-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Master Office / R6 Room",
+     "summary": "Covers the default plant spot, the bedroom office door and R6 Room door Z with spikes that only trigger on entry.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 730,
+      "end": 805,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 75,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-lair-d-s0-3",
+     "side": "defense",
+     "site": "s0",
+     "title": "Pro League top floor setup (Tachanka, Azami, Mira)",
+     "summary": "Tachanka holds a shield and stalls, Azami and Mira build the rest of the top floor setup.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "aSxAv2Z93n4",
+      "start": 0,
+      "end": 304,
+      "creator": "youuNMY",
+      "videoTitle": "Pro League Lair setup Top Floor",
+      "uploaded": "2026-07",
+      "seconds": 304,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-lair-d-s0-4",
+     "side": "defense",
+     "site": "s0",
+     "title": "Mira strat for the R6 Room",
+     "summary": "Mira on the left side of the mask room with head holes, reinforced walls behind her, then C4 behind the desk and a barricade in the operations room.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "dic0WFz9zGQ",
+      "start": 0,
+      "end": 81,
+      "creator": "RainbowSixStrats",
+      "videoTitle": "Best Mira Strat Lair Rainbow Six Siege (2F R6 Room)",
+      "uploaded": "2024-06",
+      "seconds": 81,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -3862,6 +4715,92 @@
       "note": "Long section (7:58). Plays only this part of a longer guide."
      },
      "id": "nighthaven-d-s3-3"
+    },
+    {
+     "id": "cp-nighthaven-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Azami Kiba spots for Assembly / Tank",
+     "summary": "Three Kibas in Assembly: cover the main wall and get an angle on the single door from the other room.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1536,
+      "end": 1632,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 96,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-nighthaven-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Command Center / Servers",
+     "summary": "Floor spikes in the IT department by the attic door and past the shelf so a pass-by causes a chain reaction.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 539,
+      "end": 604,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 65,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-nighthaven-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Two Fenrir spots for the top floor site",
+     "summary": "One slows pushes toward the site; the second stops pushes through the IT wall, hidden in the ivy on the ceiling panel.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 793,
+      "end": 842,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 49,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-nighthaven-a-s2-1",
+     "side": "attack",
+     "site": "s2",
+     "title": "Five-stack Kitchen / Cafeteria attack",
+     "summary": "A full-squad attack: Capitao puts a claymore at the door, drones go in, and Ram takes out the floor above.",
+     "tags": [
+      "Advanced",
+      "Execute"
+     ],
+     "video": {
+      "id": "jgN4Up2kUkI",
+      "start": 0,
+      "end": 226,
+      "creator": "hawkeyemagic",
+      "videoTitle": "NIGHT HAVEN LABS - ***NEW*** Kitchen & Cafeteria Attack Strategy (Full Squad Breakdown)",
+      "uploaded": "2023-10",
+      "seconds": 226,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -3924,7 +4863,7 @@
      "summary": "Abuse Maverick to get into attic (2F Kids' Dorms / Dorms Main Hall). 0:46 section of NotJoeyBlack's \"14 Oregon Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "nMLP7EANm0M",
@@ -3966,7 +4905,7 @@
      "summary": "Broken Denari kids hold (2F Kids' Dorms / Dorms Main Hall). 1:41 section of NotJoeyBlack's \"14 Oregon Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play",
+      "Crazy Peak",
       "Hold"
      ],
      "video": {
@@ -3988,7 +4927,7 @@
      "summary": "Broken Fenrir kids hold (2F Kids' Dorms / Dorms Main Hall). 1:46 section of NotJoeyBlack's \"14 Oregon Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play",
+      "Crazy Peak",
       "Hold"
      ],
      "video": {
@@ -4323,7 +5262,7 @@
      "summary": "Broken Azami basement angle (B Laundry Room / Supply Room). 0:45 section of NotJoeyBlack's \"14 Oregon Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play",
+      "Crazy Peak",
       "Hold"
      ],
      "video": {
@@ -4345,7 +5284,7 @@
      "summary": "Broken Mira hold in basement (B Laundry Room / Supply Room). 1:59 section of NotJoeyBlack's \"14 Oregon Solo Queue Strats You NEED To Know in Rainbow Six Siege\".",
      "tags": [
       "Pro tip",
-      "Crazy play",
+      "Crazy Peak",
       "Hold"
      ],
      "video": {
@@ -4422,6 +5361,174 @@
       "note": "Long section (11:28). Plays only this part of a longer guide."
      },
      "id": "oregon-d-s3-6"
+    },
+    {
+     "id": "cp-oregon-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for Kids' Dorms / Dorms Main Hall",
+     "summary": "Kiba Barricade spots that let you swing the attic and trophy single doors while staying protected, and still hold the main wall.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 15,
+      "end": 104,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 89,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Big window Nitro lineup",
+     "summary": "Stand behind the bunk bed and line up a Nitro Cell to punish anyone playing outside the big window.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 16,
+      "end": 31,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 15,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-a-s0-1",
+     "side": "attack",
+     "site": "s0",
+     "title": "Ash angle on the top floor",
+     "summary": "Rappel onto the armory window, destroy the boxes, then use an Ash charge on the top floor.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 112,
+      "end": 125,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 13,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-a-s0-2",
+     "side": "attack",
+     "site": "s0",
+     "title": "Ace charge on the attic wall",
+     "summary": "Ace can destroy Bandit's attic wall tricks on his own by placing a charge at the right spot.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 125,
+      "end": 141,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 16,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-a-s1-1",
+     "side": "attack",
+     "site": "s1",
+     "title": "Thermite on the Dining wall from the small tower",
+     "summary": "Come up into the small tower and place the exothermic charge to breach the Dining wall.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 172,
+      "end": 190,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 18,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-d-s2-1",
+     "side": "defense",
+     "site": "s2",
+     "title": "Hidden Kaid claw spot under the stage (Meeting)",
+     "summary": "Place the Electroclaw underneath the stage to hide it for the Meeting hatch.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 190,
+      "end": 204,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 14,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Basement Nitro lineup",
+     "summary": "Prep the window in the tower, then line up a Nitro Cell for the basement site.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "AubV8ykkH1Q",
+      "start": 241,
+      "end": 266,
+      "creator": "AMHR6",
+      "videoTitle": "DOMINATE OREGON! 20 Pro Oregon Tips in R6 Siege",
+      "uploaded": "2025-09",
+      "seconds": 25,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-oregon-a-s0-3",
+     "side": "attack",
+     "site": "s0",
+     "title": "The Attacking Trinity (anchor, support, entry)",
+     "summary": "A coordinated three-job push for the top floor: the anchor, the support and the entry each have a clear role.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "dd-YG1fnMfY",
+      "start": 343,
+      "end": 528,
+      "creator": "Poxonlox",
+      "videoTitle": "How to BREAK the Oregon Top Floor & Win Every Attack - Map Guide",
+      "uploaded": "2025-08",
+      "seconds": 185,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -4791,6 +5898,110 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "coastline-d-s3-3"
+    },
+    {
+     "id": "cp-coastline-d-s2-1",
+     "side": "defense",
+     "site": "s2",
+     "title": "Azami Kiba spots for Kitchen / Service Entrance",
+     "summary": "Starts in the sink bathroom to swing the main lobby through the double door, then adds spots in Service Entrance covering reception and the single door.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1067,
+      "end": 1157,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 90,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-coastline-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Hookah Lounge / Billiards",
+     "summary": "Spikes in the floor by the outside entrance and behind the couch, kept from overlapping, covered with barbed wire; more in the billiards room.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 6,
+      "end": 48,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 42,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-coastline-a-s0-1",
+     "side": "attack",
+     "site": "s0",
+     "title": "Hookah Lounge attack, live",
+     "summary": "Poxonlox plays this Hookah Lounge attack live, step by step, as one of four Coastline strats.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "OMuagb9nrG4",
+      "start": 0,
+      "end": 296,
+      "creator": "Poxonlox",
+      "videoTitle": "These Coastline Strats Are INSANE",
+      "uploaded": "2024-09",
+      "seconds": 296,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-coastline-a-s3-1",
+     "side": "attack",
+     "site": "s3",
+     "title": "Sunrise Bar attack, live",
+     "summary": "Compares a direct kitchen take with a top take, using Ram or Fuze outside the site.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "OMuagb9nrG4",
+      "start": 509,
+      "end": 646,
+      "creator": "Poxonlox",
+      "videoTitle": "These Coastline Strats Are INSANE",
+      "uploaded": "2024-09",
+      "seconds": 137,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-coastline-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Hookah Lounge defense options (Azami, Melusi, Smoke)",
+     "summary": "Lists the things you can run on Hookah, and walks through the Smoke strategy the creator likes.",
+     "tags": [
+      "Advanced"
+     ],
+     "video": {
+      "id": "OMuagb9nrG4",
+      "start": 646,
+      "end": 830,
+      "creator": "Poxonlox",
+      "videoTitle": "These Coastline Strats Are INSANE",
+      "uploaded": "2024-09",
+      "seconds": 184,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -5186,6 +6397,71 @@
       "note": "Long section (7:26). Plays only this part of a longer guide."
      },
      "id": "consulate-d-s3-3"
+    },
+    {
+     "id": "cp-consulate-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Azami Kiba spots for Cafeteria / Garage",
+     "summary": "Kiba setup in Garage for attackers pushing from the garage itself and the yellow staircase.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 188,
+      "end": 280,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 92,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-consulate-d-s3-2",
+     "side": "defense",
+     "site": "s3",
+     "title": "Thorn traps for Cafeteria / Garage",
+     "summary": "A spike under the yellow area that only goes off when an enemy steps there, plus spike and barbed wire at the locker hallway door.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 255,
+      "end": 335,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 80,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-consulate-a-s0-1",
+     "side": "attack",
+     "site": "s0",
+     "title": "Grim + Ying site clear on the 2F single wall",
+     "summary": "Line up Grim (alone or with Ying) outside the single wall to clear the site fast with a coordinated push.",
+     "tags": [
+      "Crazy Peak",
+      "Advanced"
+     ],
+     "video": {
+      "id": "ebpDH5vXdA0",
+      "start": 689,
+      "end": 746,
+      "creator": "The Dangleberries",
+      "videoTitle": "18 INSANE PRO LEAGUE Tricks you NEED TO USE on Siege in 2025",
+      "uploaded": "2025-09",
+      "seconds": 57,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -5407,6 +6683,70 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "kanal-d-s3-1"
+    },
+    {
+     "id": "cp-kanal-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for Radar Room / Server Room",
+     "summary": "Kiba setup for the site that starts with a spot in the Control Room, the room that connects Radar and Server.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 390,
+      "end": 500,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 110,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-kanal-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Top floor Denari setup",
+     "summary": "A quick Denari setup for the Kanal top floor, shown by Telethia. Assumes teammates help with the rest of the site.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "RHss8qc7ciY",
+      "start": 0,
+      "end": 194,
+      "creator": "Telethia",
+      "videoTitle": "***BEST*** Kanal Top Floor Denari Set Up!",
+      "uploaded": "2026-07",
+      "seconds": 194,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-kanal-d-s0-3",
+     "side": "defense",
+     "site": "s0",
+     "title": "Denari setup for Radar / Server Room and the Map Room below",
+     "summary": "Starts with the main walls, then the back walls, then the Denari traps across both floors.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "RexH-EE3DLs",
+      "start": 0,
+      "end": 457,
+      "creator": "Da_BrownGuy",
+      "videoTitle": "Best Denari setup for kanal 2F & 1F Rainbow six siege #siege, #R6siege, #siegetips",
+      "uploaded": "2026-05",
+      "seconds": 457,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -5763,7 +7103,7 @@
      "tags": [
       "Default",
       "Hold",
-      "Crazy play"
+      "Crazy Peak"
      ],
      "video": {
       "id": "xoEFNGrIXsg",
@@ -5776,6 +7116,28 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "outback-d-s3-2"
+    },
+    {
+     "id": "cp-outback-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Azami Kiba spots for Laundry Room / Piano Room",
+     "summary": "Starts in the dorms: a crouch Kiba to catch attackers opening the dorm main wall, then a standing Kiba to swing into it.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "R38y8MxcTHo",
+      "start": 1426,
+      "end": 1536,
+      "creator": "Cheezit",
+      "videoTitle": "The BEST AZAMI SETUPS for EVERY MAP - Rainbow Six Siege",
+      "uploaded": "2026-03",
+      "seconds": 110,
+      "note": "clip"
+     }
     }
    ]
   },
@@ -6648,6 +8010,134 @@
       "note": "Long section (11:24). Plays only this part of a longer guide."
      },
      "id": "casino-d-s3-6"
+    },
+    {
+     "id": "cp-casino-d-s0-1",
+     "side": "defense",
+     "site": "s0",
+     "title": "Thorn traps for Cigar Room / Pool",
+     "summary": "Spikes on the kitchen floor, behind the column near the barista and behind the bar.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Hold"
+     ],
+     "video": {
+      "id": "M3o1JcfX4XQ",
+      "start": 604,
+      "end": 681,
+      "creator": "Ducknubis",
+      "videoTitle": "The *BEST* Thorn Setup on Every Map in Rainbow Six Siege",
+      "uploaded": "2026-10",
+      "seconds": 77,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-casino-d-s0-2",
+     "side": "defense",
+     "site": "s0",
+     "title": "Denari spots: Cigar Room / Pool",
+     "summary": "The creator's first Denari attempt on the new map: tests trap spots for the Cigar and Pool site.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "K2NZ8KDCjiY",
+      "start": 0,
+      "end": 243,
+      "creator": "OrangeWookiee",
+      "videoTitle": "Best Denari Spots On CALYPSO CASINO",
+      "uploaded": "2026-06",
+      "seconds": 243,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-casino-d-s1-1",
+     "side": "defense",
+     "site": "s1",
+     "title": "Denari spots: Blackjack / Poker",
+     "summary": "Checks every entrance to the two rooms (including a hatch he couldn't break with a shotgun) and places Denari around them.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "K2NZ8KDCjiY",
+      "start": 243,
+      "end": 482,
+      "creator": "OrangeWookiee",
+      "videoTitle": "Best Denari Spots On CALYPSO CASINO",
+      "uploaded": "2026-06",
+      "seconds": 239,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-casino-d-s2-1",
+     "side": "defense",
+     "site": "s2",
+     "title": "Denari spots: Bar / Betting",
+     "summary": "Bar and Betting have no doorway between them, so this tests Denari in a fully open pair of rooms.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "K2NZ8KDCjiY",
+      "start": 482,
+      "end": 716,
+      "creator": "OrangeWookiee",
+      "videoTitle": "Best Denari Spots On CALYPSO CASINO",
+      "uploaded": "2026-06",
+      "seconds": 234,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-casino-d-s3-1",
+     "side": "defense",
+     "site": "s3",
+     "title": "Denari spots: CCTV / Vault Checkpoint",
+     "summary": "Denari spots for the basement site, which the creator says is one of his favorites on the map.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy"
+     ],
+     "video": {
+      "id": "K2NZ8KDCjiY",
+      "start": 716,
+      "end": 976,
+      "creator": "OrangeWookiee",
+      "videoTitle": "Best Denari Spots On CALYPSO CASINO",
+      "uploaded": "2026-06",
+      "seconds": 260,
+      "note": "clip"
+     }
+    },
+    {
+     "id": "cp-casino-d-s3-2",
+     "side": "defense",
+     "site": "s3",
+     "title": "Crazy Basement Setup in 45 seconds (Denari)",
+     "summary": "Timed challenge: set up the whole basement with Denari traps in 45 seconds.",
+     "tags": [
+      "Crazy Peak",
+      "Flashy",
+      "Advanced"
+     ],
+     "video": {
+      "id": "K2NZ8KDCjiY",
+      "start": 976,
+      "end": 1108,
+      "creator": "OrangeWookiee",
+      "videoTitle": "Best Denari Spots On CALYPSO CASINO",
+      "uploaded": "2026-06",
+      "seconds": 132,
+      "note": "clip"
+     }
     }
    ]
   }
