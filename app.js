@@ -74,7 +74,7 @@ function screenSites(map,side){
   document.title=map.name+" "+sideName(side)+" · R6 Strategies";
   crumb([{label:"Maps",path:[]},{label:map.name,path:[map.id]},{label:sideName(side)}]);
   app.appendChild(el("h1",null,map.name+": "+sideName(side).toLowerCase()));
-  app.appendChild(el("p","dim","Which bomb site? Each site is two rooms (the bomb is in one of them)."));
+  app.appendChild(el("p","dim","Which bomb site? Each site has two bombs, one in each room. Attackers win by planting on either."));
   var list=el("div","list");
   map.sites.forEach(function(st){
     var n=map.strategies.filter(function(s){return s.side===side&&s.site===st.id}).length;
@@ -132,7 +132,7 @@ function stratCard(s){
   pb.addEventListener("click",play);tb.addEventListener("click",play);
   c.appendChild(box);
   var yr=+v.uploaded.slice(0,4);
-  var meta=v.creator+" · "+ym(v.uploaded)+" · "+mmss(v.seconds)+(v.seconds>420?" (long)":"")+(yr&&yr<=2023?" · older video, map may have changed":"");
+  var meta=v.creator+" · "+ym(v.uploaded)+" · "+mmss(v.seconds)+(v.seconds>300?" (long)":"")+((v.older||(yr&&yr<=2023))?" · older video, map may have changed":"");
   c.appendChild(el("p","meta",meta));
   return c;
 }
