@@ -2764,20 +2764,20 @@
     {
      "side": "defense",
      "site": "s3",
-     "title": "M80's Art Storage / Old Office setup",
-     "summary": "Defender setup for Art Storage / Old Office: what to reinforce, where to rotate and where to hold. 0:28 section of M80's guide.",
+     "title": "M80's basement setup: Bumai role and mirrors",
+     "summary": "M80 coach Fabian on the reworked basement (Art Storage / Old Office): what Bumai does in the hold and where mirrors go in the new layout.",
      "tags": [
       "Default",
       "Hold"
      ],
      "video": {
       "id": "JgNw_wxQgsk",
-      "start": 0,
-      "end": 28,
+      "start": 146,
+      "end": 261,
       "creator": "M80",
       "videoTitle": "How to MASTER the Villa Basement Setup | R6 Strats w/ Fabian",
       "uploaded": "2026-10",
-      "seconds": 28,
+      "seconds": 115,
       "note": "Plays only this section of a longer guide."
      },
      "id": "villa-d-s3-1"
@@ -2937,14 +2937,14 @@
      }
     },
     {
-     "id": "villa-a-s3-ft",
-     "side": "attack",
+     "id": "villa-d-s3-ft",
+     "side": "defense",
      "site": "s3",
-     "title": "FortyThree: reworked Villa guide, Art Storage / Old Office",
-     "summary": "Walkthrough of Art Storage / Old Office on the reworked Villa (Operation Split Fire, Y11S3): layout changes, key walls, hatches and angles. Chapter of FortyThree's rework guide.",
+     "title": "FortyThree: reworked Villa Art Storage / Old Office site setup",
+     "summary": "Defensive site setup for Art Storage / Old Office on the reworked Villa (Operation Split Fire, Y11S3): reinforcements, rotates and where to hold. Chapter of FortyThree's rework guide.",
      "tags": [
       "Default",
-      "Entry"
+      "Hold"
      ],
      "video": {
       "id": "EoVDRKo5dOw",
@@ -2958,14 +2958,14 @@
      }
     },
     {
-     "id": "villa-a-s2-ft",
-     "side": "attack",
+     "id": "villa-d-s2-ft",
+     "side": "defense",
      "site": "s2",
-     "title": "FortyThree: reworked Villa guide, Kitchen / Dining Room",
-     "summary": "Walkthrough of Kitchen / Dining Room on the reworked Villa (Operation Split Fire, Y11S3): layout changes, key walls, hatches and angles. Chapter of FortyThree's rework guide.",
+     "title": "FortyThree: reworked Villa Kitchen / Dining Room site setup",
+     "summary": "Defensive site setup for Kitchen / Dining Room on the reworked Villa (Operation Split Fire, Y11S3): reinforcements, rotates and where to hold. Chapter of FortyThree's rework guide.",
      "tags": [
       "Default",
-      "Entry"
+      "Hold"
      ],
      "video": {
       "id": "EoVDRKo5dOw",
@@ -2979,14 +2979,14 @@
      }
     },
     {
-     "id": "villa-a-s1-ft",
-     "side": "attack",
+     "id": "villa-d-s1-ft",
+     "side": "defense",
      "site": "s1",
-     "title": "FortyThree: reworked Villa guide, Trophy Room / Statuary Room",
-     "summary": "Walkthrough of Trophy Room / Statuary Room on the reworked Villa (Operation Split Fire, Y11S3): layout changes, key walls, hatches and angles. Chapter of FortyThree's rework guide.",
+     "title": "FortyThree: reworked Villa Trophy Room / Statuary Room site setup",
+     "summary": "Defensive site setup for Trophy Room / Statuary Room on the reworked Villa (Operation Split Fire, Y11S3): reinforcements, rotates and where to hold. Chapter of FortyThree's rework guide.",
      "tags": [
       "Default",
-      "Entry"
+      "Hold"
      ],
      "video": {
       "id": "EoVDRKo5dOw",
@@ -3000,14 +3000,14 @@
      }
     },
     {
-     "id": "villa-a-s0-ft",
-     "side": "attack",
+     "id": "villa-d-s0-ft",
+     "side": "defense",
      "site": "s0",
-     "title": "FortyThree: reworked Villa guide, Aviator Room / Games Room",
-     "summary": "Walkthrough of Aviator Room / Games Room on the reworked Villa (Operation Split Fire, Y11S3): layout changes, key walls, hatches and angles. Chapter of FortyThree's rework guide.",
+     "title": "FortyThree: reworked Villa Aviator Room / Games Room site setup",
+     "summary": "Defensive site setup for Aviator Room / Games Room on the reworked Villa (Operation Split Fire, Y11S3): reinforcements, rotates and where to hold. Chapter of FortyThree's rework guide.",
      "tags": [
       "Default",
-      "Entry"
+      "Hold"
      ],
      "video": {
       "id": "EoVDRKo5dOw",
@@ -3295,13 +3295,13 @@
      ],
      "video": {
       "id": "yk3WIZ7lFsU",
-      "start": 0,
-      "end": 421,
+      "start": 35,
+      "end": 333,
       "creator": "LordGrinder",
       "videoTitle": "Fortress Attack Guide: Dormitory/Games (How to Attack Fortress Dorms/Games)",
       "uploaded": "2026-05",
-      "seconds": 421,
-      "note": "Full video (not a clip)."
+      "seconds": 298,
+      "note": "Plays only the strategy part (skips intro and recap)."
      },
      "id": "fortress-a-s1-3"
     },
@@ -3338,14 +3338,35 @@
      "video": {
       "id": "lJx32lTqaoU",
       "start": 641,
+      "end": 843,
+      "creator": "Fett",
+      "videoTitle": "How Pros Setup EVERY Bombsite on NEW Fortress",
+      "uploaded": "2026-01",
+      "seconds": 202,
+      "note": "Plays only this section of a longer guide."
+     },
+     "id": "fortress-d-s1-2"
+    },
+    {
+     "side": "defense",
+     "site": "s2",
+     "title": "Fett: OXG's Waiting Room / Cafeteria defense tactics",
+     "summary": "Follow-up to the setup: how the pros actually play this site once it's built, from Fett's breakdown of OXG.",
+     "tags": [
+      "Default",
+      "Hold"
+     ],
+     "video": {
+      "id": "lJx32lTqaoU",
+      "start": 843,
       "end": 1018,
       "creator": "Fett",
       "videoTitle": "How Pros Setup EVERY Bombsite on NEW Fortress",
       "uploaded": "2026-01",
-      "seconds": 377,
+      "seconds": 175,
       "note": "Plays only this section of a longer guide."
      },
-     "id": "fortress-d-s1-2"
+     "id": "fortress-d-s1-2b"
     },
     {
      "side": "defense",
@@ -4995,11 +5016,10 @@
     {
      "side": "attack",
      "site": "s1",
-     "title": "SenVale's Storage / Control Room attack",
-     "summary": "Attacker plan for Storage / Control Room: how to approach, take control and plant. 4:51 section of SenVale's guide.",
+     "title": "SenVale: Storage attack VOD review",
+     "summary": "SenVale reviews his own ranked attacks on Storage / Control Room: what worked, what failed and why. It's a game review, not a set strategy.",
      "tags": [
-      "Default",
-      "Entry"
+      "Review"
      ],
      "video": {
       "id": "yBB4iAr_-is",
@@ -5012,27 +5032,6 @@
       "note": "Plays only this section of a longer guide."
      },
      "id": "nighthaven-a-s1-1"
-    },
-    {
-     "side": "attack",
-     "site": "s1",
-     "title": "SenVale's Storage / Control Room attack",
-     "summary": "Attacker plan for Storage / Control Room: how to approach, take control and plant. 5:37 section of SenVale's guide.",
-     "tags": [
-      "Default",
-      "Entry"
-     ],
-     "video": {
-      "id": "yBB4iAr_-is",
-      "start": 1044,
-      "end": 1381,
-      "creator": "SenVale",
-      "videoTitle": "How to Attack Better on Nighthaven Labs!",
-      "uploaded": "2026-07",
-      "seconds": 337,
-      "note": "Plays only this section of a longer guide."
-     },
-     "id": "nighthaven-a-s1-2"
     },
     {
      "side": "attack",
